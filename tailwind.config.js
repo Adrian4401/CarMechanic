@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./src/**/*.{html,js,vue,ts}"
+  ],
   theme: {
     colors: {
       'background': '#181818',
       'primary': '#d9d9d9',
-      'secondary': '#ff3131'
+      'secondary': '#ff3131',
+      'divider': '#3c3c3c'
     },
     extend: {
       fontFamily: {
