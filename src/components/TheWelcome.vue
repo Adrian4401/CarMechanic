@@ -1,7 +1,5 @@
 <script setup lang="ts">
-  import WelcomeItem from './WelcomeItem.vue'
-  import DocumentationIcon from './icons/IconDocumentation.vue'
-  import ToolingIcon from './icons/IconTooling.vue'
+  import WelcomeItem from './InfoItem.vue'
   import EcosystemIcon from './icons/IconEcosystem.vue'
   import CommunityIcon from './icons/IconCommunity.vue'
   import SupportIcon from './icons/IconSupport.vue'
@@ -14,7 +12,6 @@
       <InfoIcon />
     </template>
     <template #heading>O firmie</template>
-
     Skierski Auto Serwis jest jednoosobową działalnością prowadzoną przez młodego i ambitnego chłopaka. <br><br>
     Wiedzę zaczął zdobywać już od najmłodszych lat naprawiając oraz modernizując mechanicznie skutery przechodząc sukcesywnie do samochodów. <br><br>
     Każde zlecone zadanie wykonuje z należytą starannością oraz dokładnością, a do tego charakteryzuje się uczciwością.
