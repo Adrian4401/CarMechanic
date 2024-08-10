@@ -95,5 +95,5 @@ html {
 }
 
 .review-textarea {
-    @apply w-full h-28 bg-[black]
+    @apply w-full h-28 bg-[black] text-[var(--color-text)]
 }
