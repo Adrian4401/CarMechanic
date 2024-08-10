@@ -52,3 +52,11 @@ body {
 .about-list-red {
     @apply mt-2 font-bold pr-4 lg:pr-12 bg-secondary text-end
 }
+
+.contact-element {
+    @apply flex items-center lg:text-2xl mt-2 lg:mt-6
+}
+
+.contact-element-icon {
+    @apply w-12 h-12 mr-8 text-secondary
+}
