@@ -14,7 +14,11 @@
 }
 
 body {
-    @apply font-orbitron;
+    @apply font-orbitron 
+}
+
+html {
+    @apply scroll-smooth scroll-pt-40 lg:scroll-pt-32
 }
 
 .nav-link {

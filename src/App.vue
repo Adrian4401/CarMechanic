@@ -2,7 +2,7 @@
   import Navigation from '@/components/TopNavigation.vue'
   import Adversiment from '@/components/TopAdversiment.vue'
   import AboutUs from '@/components/AboutUs.vue'
-  import WorkshopStrenghts from '@/components/WorkshopStrenghts.vue'
+  import Strenghts from '@/components/WorkshopStrenghts.vue'
   import Contact from '@/components/ContactUs.vue'
   import Localization from '@/components/WorkshopLocalization.vue'
   import Reviews from '@/components/CustomerReviews.vue'
@@ -14,12 +14,12 @@
   </header>
 
   <main>
-    <Adversiment class="mx-8 lg:mx-16"/>
-    <AboutUs class="mx-8 lg:mx-16"/>
-    <WorkshopStrenghts class="mx-8 lg:mx-16"/>
-    <Contact class="mx-8 lg:mx-16" />
-    <Localization class="mx-8 lg:mx-16" />
-    <Reviews class="mx-8 lg:mx-16" />
+    <Adversiment id="adversiment" class="mx-8 lg:mx-16"/>
+    <AboutUs id="aboutus" class="mx-8 lg:mx-16"/>
+    <Strenghts id="strenghts" class="mx-8 lg:mx-16"/>
+    <Contact id="contact" class="mx-8 lg:mx-16" />
+    <Localization id="localization" class="mx-8 lg:mx-16" />
+    <Reviews id="reviews" class="mx-8 lg:mx-16" />
   </main>
 
   <footer class="text-center mt-12 lg:mt-32 text-sm lg:text-base">

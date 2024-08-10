@@ -6,10 +6,10 @@
   <div class="w-full lg:flex items-center py-4 bg-[black]">
     <img alt="Vue logo" class="w-28 block mx-auto mb-4 lg:mb-0 lg:w-40 lg:pl-8" src="@/assets/logo_flat.png" />
     <nav class="w-full justify-between text-center text-md lg:text-2xl">
-      <RouterLink to="/" class="nav-link">O firmie</RouterLink>
-      <RouterLink to="/about" class="nav-link">Kontakt</RouterLink>
-      <RouterLink to="/about" class="nav-link">Adres</RouterLink>
-      <RouterLink to="/about" class="nav-link">Opinie</RouterLink>
+      <a href="#aboutus" class="nav-link">O firmie</a>
+      <a href="#contact" class="nav-link">Kontakt</a>
+      <a href="#localization" class="nav-link">Adres</a>
+      <a href="#reviews" class="nav-link">Opinie</a>
     </nav>
   </div>
 </template>
