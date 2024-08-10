@@ -4,6 +4,7 @@
   import AboutUs from '@/components/AboutUs.vue'
   import WorkshopStrenghts from '@/components/WorkshopStrenghts.vue'
   import Contact from '@/components/ContactUs.vue'
+  import Localization from '@/components/WorkshopLocalization.vue'
 </script>
 
 <template>
@@ -16,5 +17,6 @@
     <AboutUs class="mx-8 lg:mx-16"/>
     <WorkshopStrenghts class="mx-8 lg:mx-16"/>
     <Contact class="mx-8 lg:mx-16" />
+    <Localization class="mx-8 lg:mx-16" />
   </main>
 </template>
