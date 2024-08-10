@@ -1,9 +1,5 @@
 <script setup lang="ts">
   import WelcomeItem from './InfoItem.vue'
-  import EcosystemIcon from './icons/IconEcosystem.vue'
-  import CommunityIcon from './icons/IconCommunity.vue'
-  import SupportIcon from './icons/IconSupport.vue'
-  import InfoIcon from './icons/IconInfo.vue'
 </script>
 
 <template>

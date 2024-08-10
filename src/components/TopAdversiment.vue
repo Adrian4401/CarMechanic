@@ -2,7 +2,7 @@
     <div :class="[
         'transform transition-all ease-in-out duration-[1500ms]', 
         showAd ? 'translate-x-0' : '-translate-x-full',
-        'lg:my-20 mt-16'
+        'lg:mt-20 mt-10'
     ]">
         <img src="../assets/adversiment.png" class="block m-auto lg:h-[36rem]" />
     </div>

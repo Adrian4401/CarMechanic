@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import { ref, onMounted, onUnmounted } from 'vue'
+    import InfoItem from '@/components/InfoItem.vue'
 
     const showList = ref(Array(5).fill(false))
     const observer = ref<IntersectionObserver | null>(null)
@@ -43,8 +44,8 @@
 </script>
 
 <template>
-    <div class="info-section">
-        <h3 class="text-xl lg:text-5xl font-medium text-[var(--color-heading)] mb-4 lg:mb-6">Warsztat kieruje się:</h3>
+    <InfoItem class="info-section">
+        <template #heading>Warsztat kieruje się</template>
         <ul>
             <li :class="['transform-transition', showList[0] ? 'translate-visible' : 'translate-hidden-left']" class="custom-rounded about-list about-list-red">Profesjonalizmem</li>
             <li :class="['transform-transition', showList[1] ? 'translate-visible' : 'translate-hidden-right']" class="about-list">Uczciwością</li>
@@ -52,5 +53,5 @@
             <li :class="['transform-transition', showList[3] ? 'translate-visible' : 'translate-hidden-right']" class="about-list">Terminowością</li>
             <li :class="['transform-transition', showList[4] ? 'translate-visible' : 'translate-hidden-left']" class="custom-rounded about-list about-list-red">Komunikatywnością</li>
         </ul>
-    </div>
+    </InfoItem>
 </template>

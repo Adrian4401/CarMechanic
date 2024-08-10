@@ -3,6 +3,7 @@
   import Adversiment from '@/components/TopAdversiment.vue'
   import AboutUs from '@/components/AboutUs.vue'
   import WorkshopStrenghts from '@/components/WorkshopStrenghts.vue'
+  import Contact from '@/components/ContactUs.vue'
 </script>
 
 <template>
@@ -14,5 +15,6 @@
     <Adversiment class="mx-8 lg:mx-16"/>
     <AboutUs class="mx-8 lg:mx-16"/>
     <WorkshopStrenghts class="mx-8 lg:mx-16"/>
+    <Contact class="mx-8 lg:mx-16" />
   </main>
 </template>

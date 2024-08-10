@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="lg:flex items-center my-16 lg:my-8">
+  <div class="lg:flex items-center">
     <InfoItem class="w-full">
       <!-- <template #icon>
         <InfoIcon />
