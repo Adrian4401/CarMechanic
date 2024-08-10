@@ -5,6 +5,7 @@
   import WorkshopStrenghts from '@/components/WorkshopStrenghts.vue'
   import Contact from '@/components/ContactUs.vue'
   import Localization from '@/components/WorkshopLocalization.vue'
+  import Reviews from '@/components/CustomerReviews.vue'
 </script>
 
 <template>
@@ -18,5 +19,10 @@
     <WorkshopStrenghts class="mx-8 lg:mx-16"/>
     <Contact class="mx-8 lg:mx-16" />
     <Localization class="mx-8 lg:mx-16" />
+    <Reviews class="mx-8 lg:mx-16" />
   </main>
+
+  <footer class="text-center mt-12 lg:mt-32 text-sm lg:text-base">
+    <p>&copy; Adrian Zakrzewski 2024</p>
+  </footer>
 </template>
