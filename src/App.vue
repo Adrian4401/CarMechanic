@@ -2,6 +2,7 @@
   import Navigation from '@/components/TopNavigation.vue'
   import Adversiment from '@/components/TopAdversiment.vue'
   import AboutUs from '@/components/AboutUs.vue'
+  import WorkshopStrenghts from '@/components/WorkshopStrenghts.vue'
 </script>
 
 <template>
@@ -12,5 +13,6 @@
   <main>
     <Adversiment class="mx-8 lg:mx-16"/>
     <AboutUs class="mx-8 lg:mx-16"/>
+    <WorkshopStrenghts class="mx-8 lg:mx-16"/>
   </main>
 </template>

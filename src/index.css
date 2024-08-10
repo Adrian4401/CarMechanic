@@ -5,6 +5,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer utilities {
+    .custom-rounded{
+        border-radius: 2em 20px 2.5em 0.2in;
+    }
+}
+
 body {
     @apply font-orbitron;
 }
@@ -19,4 +27,28 @@ body {
 
 .nav-link:hover {
     @apply text-secondary
+}
+
+.transform-transition {
+    @apply transform transition-all ease-in-out duration-[1800ms]
+}
+
+.translate-hidden-left {
+    @apply -translate-x-full;
+}
+
+.translate-hidden-right {
+    @apply translate-x-full;
+}
+
+.translate-visible {
+    @apply translate-x-0;
+}
+
+.about-list {
+    @apply mt-2 font-bold pl-4 lg:pl-12 py-2 text-lg lg:text-2xl 
+}
+
+.about-list-red {
+    @apply mt-2 font-bold pr-4 lg:pr-12 bg-secondary text-end
 }
