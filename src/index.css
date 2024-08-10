@@ -60,3 +60,36 @@ body {
 .contact-element-icon {
     @apply w-8 h-8 lg:w-12 lg:h-12 mr-8 text-secondary
 }
+
+/* REVIEWS */
+.review-container {
+    @apply w-80 lg:w-96 h-48 bg-[black] rounded-2xl border-[var(--color-text)] border-2
+}
+
+.review-container-top {
+    @apply flex py-2 mx-2 items-center justify-between border-b-2 border-[var(--color-text)]
+}
+
+.review-user-info {
+    @apply flex items-center
+}
+
+.review-img {
+    @apply w-8 h-8 rounded-full
+}
+
+.review-username {
+    @apply pl-4 text-base
+}
+
+.review-rate {
+    @apply text-xl font-bold text-secondary
+}
+
+.review-container-bottom {
+    @apply my-2 mx-2
+}
+
+.review-textarea {
+    @apply w-full h-28 bg-[black]
+}
