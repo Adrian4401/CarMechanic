@@ -14,7 +14,7 @@
 }
 
 body {
-    @apply font-orbitron 
+    @apply font-orbitron overflow-x-hidden
 }
 
 html {
