@@ -8,7 +8,8 @@ export default {
       'background': '#181818',
       'primary': '#d9d9d9',
       'secondary': '#ff3131',
-      'divider': '#3c3c3c'
+      'divider': '#3c3c3c',
+      'text': 'ebebeb'
     },
     extend: {
       fontFamily: {
